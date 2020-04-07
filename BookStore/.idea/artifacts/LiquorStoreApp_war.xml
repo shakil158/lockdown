@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LiquorStoreApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>LiquorStoreApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SampleServlet.war">
+      <element id="artifact" artifact-name="LiquorStoreApp:war exploded" />
+    </root>
+  </artifact>
+</component>
